@@ -1,0 +1,1382 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.single_card h6 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.single_img {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.single_img-right {
+    width: 50%;
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.single_img-left {
+    width: 50%;
+    height: 416px;
+}
+
+.single_img-left img {
+    height: 100%;
+}
+
+.single_img-right img {
+    display: flex;
+    width: 48%;
+    height: 199px;
+
+}
+
+.single_card-boxs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 100px;
+}
+
+.box1_title h5 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+}
+
+.box1_title p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    margin: 16px 0;
+}
+
+.card_box1-rote {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card_box1-rote span {
+    font-size: 22px;
+}
+
+.line {
+    margin: 40px 0;
+}
+
+.box1_user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.box1-user-name h6,
+p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.box1-user-name p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box1_user img {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.card_box1-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card_box1-text {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.card_box1-text span {
+    font-size: 22px;
+}
+
+.box1-text h5 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    color: #000;
+}
+
+.box1-text h6 {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    margin-top: 4px;
+}
+
+
+
+
+
+.card_box1-textt p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.card_box1-textt {
+    margin-top: 40px;
+}
+
+.box1-textt-showMore {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.box1-textt-showMore span {
+    font-size: 25px;
+}
+
+.box1-textt-showMore h6 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+
+
+.box1-rooms-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1-rooms-nav h6 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.28px;
+    text-align: left;
+
+}
+
+.box1-rooms-page {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.box1-rooms-page p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    color: #7B7979;
+}
+
+.box1-rooms-page span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.box1-rooms-page-span {
+    opacity: 30%;
+    background: #000;
+}
+
+.card_box1-roomss {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.card_box1-room {
+    margin-top: 16px;
+}
+
+.card_box1-room h6 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.card_box1-room p {
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+
+
+.card_box1-wifi {
+    margin-top: 40px;
+}
+
+.card_box1-wifi h5 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.28px;
+    text-align: left;
+    color: #000000;
+}
+
+.card_box1-wifis {
+    display: flex;
+    align-items: start;
+    gap: 113px;
+    margin-top: 16px;
+
+}
+
+.box1_wifis-left,
+.box1_wifis-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box1_wifi {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.box1_wifi h6 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.box1_wifi span {
+    font-size: 22px;
+}
+
+.card_box1-btn button {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #011120;
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #011120;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+.grade_box-chart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .box_chart {
+    width: 219px;
+    height: 9px;
+    background: #011120;
+    border-radius: 16px;
+} */
+
+
+
+
+/* ============== */
+.card_box2 {
+    border: 1px solid #C2C2C2;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.card_box2 h5 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    text-align: left;
+}
+
+.card_box2 h5 span {
+    font-family: Nunito;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32.74px;
+    text-align: left;
+}
+
+.card_box2-date {
+    border: 1px solid #C2C2C2;
+    display: flex;
+    align-items: start;
+    width: 390px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 24px;
+}
+
+.date_text {
+    padding: 12px 16px;
+}
+
+.date_text:nth-child(1) {
+    border-right: 1px solid #C2C2C2;
+    width: 50%;
+}
+
+.date_text h6,
+p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.date_text p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+/* .bbbgg {
+    height: 500px; 
+    border: 1px solid #000;
+} */
+/* Select option .select_title h6, p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.select_title p {
+    font-weight: 400;
+} */
+
+
+.card_box2-btn {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    background: #03559E;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    margin: 24px 0;
+    border-radius: 10px;
+}
+
+.box2_tovol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_box2-tolovlar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* border-bottom: 1px solid #D9D9D9; */
+    margin-bottom: 24px;
+}
+
+.box2_tovol h5,
+h6 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.28px;
+    text-align: left;
+}
+
+.box2_tovol h5 {
+    text-decoration: underline;
+}
+
+.card_box2-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.card_box2-footer h4,
+h5 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.card_box2-footer h5 {
+    font-weight: 700;
+}
+
+
+
+/* ================ */
+.card_box1-grade {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+
+}
+
+.grade_line {
+    width: 1px;
+    height: 176px;
+    background: #D9D9D9;
+}
+
+.box_chart {
+    display: flex;
+    align-items: center;
+
+}
+
+.grade_box-charts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box_chart1 div:nth-child(1) {
+    width: 135px;
+    height: 9px;
+    background: #000;
+    border-radius: 16px 0 0 16px;
+}
+
+.box_chart1 div:nth-child(2) {
+    width: 100px;
+    height: 9px;
+    background: #D9D9D9;
+    border-radius: 0 16px 16px 0;
+}
+
+.box_chart2 div:nth-child(1) {
+    width: 100px;
+    height: 9px;
+    background: #000;
+    border-radius: 16px 0 0 16px;
+}
+
+.box_chart2 div:nth-child(2) {
+    width: 135px;
+    height: 9px;
+    background: #D9D9D9;
+    border-radius: 0 16px 16px 0;
+}
+
+.box_chart3 div:nth-child(1) {
+    width: 50px;
+    height: 9px;
+    background: #000;
+    border-radius: 16px 0 0 16px;
+}
+
+.box_chart3 div:nth-child(2) {
+    width: 185px;
+    height: 9px;
+    background: #D9D9D9;
+    border-radius: 0 16px 16px 0;
+}
+
+.box_chart4 div:nth-child(1) {
+    width: 15px;
+    height: 9px;
+    background: #000;
+    border-radius: 16px 0 0 16px;
+}
+
+.box_chart4 div:nth-child(2) {
+    width: 220px;
+    height: 9px;
+    background: #D9D9D9;
+    border-radius: 0 16px 16px 0;
+}
+
+.box1_grade-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 29px;
+    padding: 35px 0;
+}
+
+.box1_grade-box2 h6 {
+    max-width: 110px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.box1_grade-box2 span {
+    font-size: 22px;
+}
+
+.card_box2-calendar {
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+
+
+/* ================ */
+.user_data {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.user_data button {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 14px 15px;
+    margin-top: 40px;
+}
+
+.user_card-name {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.user_card-name img {
+    width: 72px;
+    height: 72px;
+}
+
+.user_name h6,
+p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.user_name p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+
+.user_data-term {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.user_data-term h6,
+p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.82px;
+    text-align: left;
+    color: #A29F9F;
+}
+
+.user_data-term h6 {
+    color: #000;
+}
+
+.tern-icon {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: yellow;
+    font-size: 20px;
+}
+
+.user_data-termm p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.82px;
+    text-align: left;
+    color: #343330;
+    margin: 16px 0;
+}
+
+.user_data-text p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: left;
+    color: #000;
+    max-width: 565px;
+}
+
+
+
+/* ============ */
+.map h5 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.28px;
+    text-align: left;
+}
+
+.map img {
+    margin-top: 16px;
+}
+
+
+/* ================= */
+.text {
+    margin-top: 40px;
+}
+
+.text h6 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.28px;
+    text-align: left;
+}
+
+.text p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: left;
+    margin: 16px 0 24px 0;
+    max-width: 950px;
+}
+
+
+
+
+/* ============ */
+
+.single_user-about {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.single_user-about img {
+    width: 72px;
+    height: 72px;
+}
+
+.single_user-about h5 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+}
+
+.single_user-about p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.single_user-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.single_user-icon {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.single_user-icon b {
+    font-size: 20px;
+}
+
+.single_user-icon p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000000;
+}
+
+.single_user-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.single_user-text-left p {
+    max-width: 633px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.55px;
+    text-align: left;
+    color: #000;
+}
+
+.single_user-text-left p b {
+    font-weight: 700;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.user_text-right-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.user_text-right-text p {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000;
+}
+
+.user_text-right-text p b {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.82px;
+    text-align: left;
+    color: #000;
+}
+
+.single_user-text-right button {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding: 12px 31px;
+    background: #03559E;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+/* =========== */
+.single_user-rules-information h6 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.28px;
+    text-align: left;
+    color: #000;
+}
+
+.single_user-ruleses {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 19px;
+    width: 100%;
+}
+
+.single_user-rules p {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.55px;
+    text-align: left;
+    color: #000;
+}
+
+.single_user-rules {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 33%;
+    /* border: 1px solid #000; */
+}
+
+.user_rules-showMore {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user_rules-showMore h5 {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
+    color: #000;
+    text-decoration: underline;
+
+}
+
+.user_rules-span {
+    font-size: 22px;
+}
+
+.single_user-rules-information2 {
+    background: #F7F7F7;
+    padding: 48px 8px;
+}
+
+
+/* @media (max-width: 1920px) {
+    
+}
+
+@media (max-width: 1200px) {
+    .single_card {
+        padding: 0 50px;
+    }
+} */
+
+@media (max-width: 447px) {
+    .line {
+        margin: 20px 0;
+    }
+
+    .single_card h6 {
+        font-size: 14px;
+        line-height: 20px;
+
+    }
+
+    /* == */
+    .single_card-boxs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .single_img {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .single_img-left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .single_img-left img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .single_img-right {
+        width: 100%;
+        display: flex;
+        gap: 8px;
+    }
+
+    .single_img-right img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .card_box1-rote {
+        gap: 5px;
+    }
+
+    .card_box1-rote span {
+        font-size: 18px;
+    }
+
+
+
+    .box1_title h5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .box1_title p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 8px 0;
+    }
+
+    .box1_user {
+        gap: 10px;
+    }
+
+    .box1-user-name h6,
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .box1-user-name p {
+        font-size: 14px;
+    }
+
+    .box1_user img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card_box1-texts {
+        gap: 10px;
+    }
+
+    .card_box1-text {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+    }
+
+    .card_box1-text span {
+        font-size: 20px;
+    }
+
+    .box1-text h5 {
+        font-size: 16px;
+        line-height: 24.55px;
+    }
+
+    .box1-text h6 {
+        font-size: 14px;
+        line-height: 21.82px;
+        margin-top: 0px;
+    }
+
+
+
+    .card_box1-textt p {
+        font-size: 14px;
+        line-height: 24.55px;
+    }
+
+    .card_box1-textt {
+        margin-top: 20px;
+    }
+
+    .box1-textt-showMore {
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .box1-textt-showMore span {
+        font-size: 20px;
+    }
+
+    .box1-textt-showMore h6 {
+        font-size: 16px;
+    }
+
+
+
+
+    .box1-rooms-nav h6 {
+        font-size: 16px;
+        line-height: 27.28px;
+    }
+
+    .box1-rooms-page {
+        gap: 5px;
+    }
+
+    .box1-rooms-page p {
+        font-size: 16px;
+        line-height: 21.82px;
+    }
+
+    .box1-rooms-page span {
+        width: 25px;
+        height: 25px;
+        font-size: 18px;
+    }
+
+    .card_box1-roomss {
+        gap: 20px;
+    }
+
+    .card_box1-room {
+        margin-top: 16px;
+    }
+
+    .card_box1-room h6 {
+        font-size: 16px;
+        line-height: 24.55px;
+        margin-top: 10px;
+    }
+
+    .card_box1-room p {
+        margin-top: 4px;
+        font-size: 14px;
+    }
+
+
+
+
+    .card_box1-wifi {
+        margin-top: 30px;
+    }
+
+    .card_box1-wifi h6 {
+        font-size: 18px;
+        line-height: 27.28px;
+    }
+
+    .card_box1-wifis {
+        justify-content: space-between;
+        gap: 15px;
+        margin-top: 10px;
+
+    }
+
+    .box1_wifis-left,
+    .box1_wifis-right {
+        gap: 12px;
+    }
+
+    .box1_wifi {
+        gap: 10px;
+    }
+
+    .box1_wifi h6 {
+        font-size: 16px;
+        line-height: 24.55px;
+    }
+
+    .box1_wifi span {
+        font-size: 18px;
+    }
+
+    .card_box1-btn button {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 10px;
+        margin-top: 30px;
+    }
+
+
+    .card_box2-big {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .card_box2 {
+        border-radius: 20px;
+        padding: 40px 20px;
+    }
+
+    .card_box2 h5 span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .card_box2-date {
+        width: 290px;
+        margin-top: 24px;
+    }
+
+    .date_text {
+        padding: 8px 15px;
+    }
+
+    .date_text h6,
+    p {
+        font-size: 16px;
+    }
+
+    .card_box2-btn {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .card_box2-tolovlar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .box2_tovol h5,
+    h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .card_box2-footer h4 {
+        font-size: 18px;
+    }
+
+    .card_box2-footer h5 {
+        font-size: 18px;
+    }
+
+    /* === */
+    .card_box2-calendar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    /* == */
+    .card_box1-grade {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .grade_line {
+        width: 1px;
+        height: 176px;
+        background: #D9D9D9;
+    }
+
+    .box_chart {
+        display: flex;
+        align-items: center;
+    }
+
+    .grade_box-charts {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .box_chart1 div:nth-child(1) {
+        width: 105px;
+        height: 6px;
+    }
+
+    .box_chart1 div:nth-child(2) {
+        width: 65px;
+        height: 6px;
+    }
+
+    .box_chart2 div:nth-child(1) {
+        width: 70px;
+        height: 6px;
+    }
+
+    .box_chart2 div:nth-child(2) {
+        width: 100px;
+        height: 6px;
+    }
+
+    .box_chart3 div:nth-child(1) {
+        width: 40px;
+        height: 6px;
+    }
+
+    .box_chart3 div:nth-child(2) {
+        width: 130px;
+        height: 6px;
+    }
+
+    .box_chart4 div:nth-child(1) {
+        width: 20px;
+        height: 6px;
+    }
+
+    .box_chart4 div:nth-child(2) {
+        width: 150px;
+        height: 6px;
+    }
+
+    .box1_grade-box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 15px;
+        padding: 35px 0;
+    }
+
+    .box1_grade-box2 h6 {
+        max-width: 100px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .box1_grade-box2 span {
+        font-size: 20px;
+    }
+
+    /* == */
+    .user_data {
+        gap: 30px;
+    }
+
+    .user_data button {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 12px;
+        margin-top: 0px;
+    }
+
+    .user_card-name {
+        gap: 15px;
+    }
+
+    .user_card-name img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .user_name h6,
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .user_name p {
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+
+    .user_data-term {
+        gap: 10px;
+    }
+
+    .user_data-term h6,
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .user_data-termm p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px 0;
+    }
+
+    .user_data-text p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+
+
+    /* === */
+    /* .map {
+
+    } */
+
+    /* === */
+    .text {
+        margin-top: 40px;
+    }
+
+    .text h6 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 0 24px 0;
+        max-width: 100%;
+    }
+
+    .text-showMore {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .text-showMore span {
+        font-size: 20px;
+    }
+
+    /* ==== */
+    .single_user {
+        display: none;
+    }
+}
