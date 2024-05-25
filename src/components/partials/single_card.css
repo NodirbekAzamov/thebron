@@ -32,6 +32,10 @@
     justify-content: space-between;
 }
 
+.single_img-left img {
+    width: 100%;
+}
+
 .single_img-left {
     width: 50%;
     height: 416px;
@@ -234,13 +238,18 @@ p {
 .card_box1-roomss {
     display: flex;
     align-items: start;
+    justify-content: space-between;
     gap: 30px;
 }
 
 .card_box1-room {
     margin-top: 16px;
+    width: 100%;
 }
 
+.card_box1-room img {
+    width: 100%;
+}
 .card_box1-room h6 {
     font-family: Nunito;
     font-size: 18px;
